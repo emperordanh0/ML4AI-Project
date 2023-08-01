@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 
 with zipfile.ZipFile("model.zip","r") as zip_ref:
     zip_ref.extractall("model")
-
+st.write('Done')
 # model = load_model('/model/model')
 # def simple_preprocessing(text):
 #     emoji_pattern = re.compile("["

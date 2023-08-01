@@ -4,7 +4,7 @@ import re
 import zipfile
 from tensorflow.keras.models import load_model
 
-model = load_model('/model')
+model = load_model('model')
 def simple_preprocessing(text):
     emoji_pattern = re.compile("["
                                "\U0001F600-\U0001F64F"

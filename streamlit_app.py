@@ -20,6 +20,7 @@ def simple_preprocessing(text):
     return text
 
 st.title('Sentiment Analysis Project')
+st.write('45 words max')
 x = st.text_input('Input text: ')
 x = simple_preprocessing(x)
 x = np.array([x])
